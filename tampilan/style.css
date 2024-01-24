@@ -1,0 +1,72 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+#input-section {
+	flex: 1;
+	margin-right: 20px;
+}
+
+#display-section {
+	flex: 2;
+}
+
+#water-form {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+#water-form label {
+	flex: 1;
+	margin-right: 10px;
+}
+
+#water-form input[type="number"],
+#water-form input[type="time"] {
+	flex: 2;
+	margin-right: 10px;
+}
+
+#water-form button {
+	flex: 1;
+	margin-left: auto;
+}
+
+#water-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#water-table th,
+#water-table td {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+#water-table th {
+	background-color: #333;
+	color: #fff;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}

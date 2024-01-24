@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Water Tracker</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Water Tracker</h1>
+	</header>
+	<main>
+		<section id="input-section">
+			<h2>Log Water Intake</h2>
+			<form id="water-form">
+				<label for="amount">Amount (in ounces):</label>
+				<input type="number" id="amount" name="amount" required>
+				<label for="time">Time:</label>
+				<input type="time" id="time" name="time" required>
+				<button type="submit">Log</button>
+			</form>
+		</section>
+		<section id="display-section">
+			<h2>Today's Water Intake</h2>
+			<table id="water-table">
+				<thead>
+					<tr>
+						<th>Amount</th>
+						<th>Time</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Water Tracker</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
